@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amala Ibadan</title>
+    <link rel="stylesheet" href="menustyle.css">
+    <link rel="shortcut icon" href="images/logo.png">
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <div class="logo"><img src="images/logo.png" alt="Amala Ibadan Logo"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" style="color: #e08414;">Menu</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img src="images/menu3.png" alt="Menu Icon" class="menu-btn">
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="amala">
+        <h1 class="home">DELICIOUS, ORGANIC AND DELIGHTFUL.</h1>
+        <p>Authentic Nigerian dishes, using fresh, locally sourced ingredients to deliver flavorful, nutritious meals like Amala, Fufu, and Jollof Rice.</p>
+    </section>
+
+    <!-- Menu Header Section -->
+    <section class="menu-header">
+        <h1 style="color: #e08414; font-size: 6vmin;">Our Delicious Menu</h1>
+        <p>Explore a variety of authentic Nigerian dishes made with fresh, locally sourced ingredients.</p>
+    </section>
+
+    <!-- Menu Section with Carousel -->
+    <section>
+        <div class="head">
+            <h1>STARCHY MEALS</h1>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-control prev" id="prevBtn">&#10094;</button>
+            
+            <div class="card-container" id="cardContainer">
+                <div class="card">
+                    <img src="images/amalaswallow.jpg" alt="Amala">
+                    <div class="card-body">
+                        <h5 class="card-title">Amala</h5>
+                        <p class="card-description"><img src="images/naira.png" alt="Naira"> 300</p>
+                        <a href="option1.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="1" data-product-name="Amala" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Swallow.png" alt="Eba">
+                    <div class="card-body">
+                        <h5 class="card-title">Eba</h5>
+                        <p class="card-description"><img src="images/naira.png" alt="Naira"> 300</p>
+                        <a href="option2.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="2" data-product-name="Eba" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/fufumeal.jpg" alt="Fufu">
+                    <div class="card-body">
+                        <h5 class="card-title">Fufu</h5>
+                        <p class="card-description"><img src="images/naira.png" alt="Naira"> 300</p>
+                        <a href="option3.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="3" data-product-name="Fufu" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poundoyam.jpg" alt="Fufu">
+                    <div class="card-body">
+                        <h5 class="card-title">poundo</h5>
+                        <p class="card-description"><img src="images/naira.png" alt="Naira"> 300</p>
+                        <a href="option3.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="4" data-product-name="poundo" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poundoyam.jpg" alt="semo">
+                    <div class="card-body">
+                        <h5 class="card-title">Semo</h5>
+                        <p class="card-description"><img src="images/naira.png" alt="Naira"> 300</p>
+                        <a href="option3.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="5" data-product-name="semo" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <button class="carousel-control next" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+
+
+    <section class="section2"> 
+        <div class="head">
+            <h1>SOUPS</h1>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-control prev" id="prevBtn">&#10094;</button>
+            
+            <div class="card-container" id="cardContainer">
+                <div class="card">
+                    <img src="images/goatsoup.jpg" alt="Goat Meat Soup">
+                    <div class="card-body">
+                        <h5 class="card-title">GOAT MEAT SOUP</h5>
+                        <p>per litre (2.5ltr)</p>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 25,000</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <!-- Add to Cart Button -->
+                        <button class="add-to-cart" data-product-id="6" data-product-name="Goat Meat Soup" data-product-price="25000">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/efo-riro.jpg" alt="Efo-Riro">
+                    <div class="card-body">
+                        <h5 class="card-title">EFO-RIRO</h5>
+                        <p>per litre (2.5ltr)</p>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 25,000</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <!-- Add to Cart Button -->
+                        <button class="add-to-cart" data-product-id="7" data-product-name="Efo-Riro" data-product-price="25000">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/egusisoup.webp" alt="Egusi Soup">
+                    <div class="card-body">
+                        <h5 class="card-title">EGUSI SOUP</h5>
+                        <p>per litre (2.5ltr)</p>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 25,000</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <!-- Add to Cart Button -->
+                        <button class="add-to-cart" data-product-id="8" data-product-name="Egusi Soup" data-product-price="25000">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/bukastew.jpeg" alt="Buka Stew">
+                    <div class="card-body">
+                        <h5 class="card-title">BUKA STEW</h5>
+                        <p>per litre (2.5ltr)</p>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 30,000</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <!-- Add to Cart Button -->
+                        <button class="add-to-cart" data-product-id="9" data-product-name="Buka Stew" data-product-price="30000">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/hakestew.jpg" alt="Hake-Fish Stew">
+                    <div class="card-body">
+                        <h5 class="card-title">HAKE-FISH STEW</h5>
+                        <p>per litre (2.5ltr)</p>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 30,000</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <!-- Add to Cart Button -->
+                        <button class="add-to-cart" data-product-id="10" data-product-name="Hake-Fish Stew" data-product-price="30000">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/ewedu.jpg" alt="Ewedu">
+                    <div class="card-body">
+                        <h5 class="card-title">EWEDU</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <!-- Add to Cart Button -->
+                        <button class="add-to-cart" data-product-id="11" data-product-name="Ewedu" data-product-price="300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/gbegiri.jpeg" alt="Gbegiri">
+                    <div class="card-body">
+                        <h5 class="card-title">GBEGIRI</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <!-- Add to Cart Button -->
+                        <button class="add-to-cart" data-product-id="12" data-product-name="Gbegiri" data-product-price="300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control next" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+    <section class="section2"> 
+        <div class="head">
+            <h1>PROTEIN</h1>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-control prev" id="prevBtn">&#10094;</button>
+            
+            <div class="card-container" id="cardContainer">
+                <!-- Card for Peppered Beef -->
+                <div class="card">
+                    <img src="images/beef.jpg" alt="Peppered Beef">
+                    <div class="card-body">
+                        <h5 class="card-title">PEPPERED BEEF</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="13" data-product-name="Peppered Beef" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <!-- Card for Goat Meat -->
+                <div class="card">
+                    <img src="images/goatmeat.jpg" alt="Goat Meat">
+                    <div class="card-body">
+                        <h5 class="card-title">GOAT MEAT</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="14" data-product-name="Goat Meat" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <!-- Card for Hake Fish -->
+                <div class="card">
+                    <img src="images/hakefish.jpg" alt="Hake Fish">
+                    <div class="card-body">
+                        <h5 class="card-title">HAKE FISH</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="15" data-product-name="Hake Fish" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <!-- Card for Chicken -->
+                <div class="card">
+                    <img src="images/chicken.jpg" alt="Chicken">
+                    <div class="card-body">
+                        <h5 class="card-title">CHICKEN</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="16" data-product-name="Chicken" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <!-- Card for Turkey -->
+                <div class="card">
+                    <img src="images/turkey.jpg" alt="Turkey">
+                    <div class="card-body">
+                        <h5 class="card-title">TURKEY</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="17" data-product-name="Turkey" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control next" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+    
+    <section class="section2"> 
+        <div class="head">
+            <h1>RICE MEALS</h1>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-control prev" id="prevBtnRice">&#10094;</button>
+            
+            <div class="card-container" id="cardContainerRice">
+                <!-- Card for Jollof Rice -->
+                <div class="card">
+                    <img src="images/jolofrice.jpg" alt="Jollof Rice">
+                    <div class="card-body">
+                        <h5 class="card-title">JOLLOF RICE</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="18" data-product-name="Jollof Rice" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <!-- Card for Fried Rice -->
+                <div class="card">
+                    <img src="images/friedrice.jpg" alt="Fried Rice">
+                    <div class="card-body">
+                        <h5 class="card-title">FRIED RICE</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="19" data-product-name="Fried Rice" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <!-- Card for Asun Rice -->
+                <div class="card">
+                    <img src="images/asunrice.webp" alt="Asun Rice">
+                    <div class="card-body">
+                        <h5 class="card-title">ASUN RICE</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="20" data-product-name="Asun Rice" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <!-- Card for White Rice -->
+                <div class="card">
+                    <img src="images/whiterice.jpg" alt="White Rice">
+                    <div class="card-body">
+                        <h5 class="card-title">WHITE RICE</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="21" data-product-name="White Rice" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <!-- Card for Village Rice -->
+                <div class="card">
+                    <img src="images/villagerice.jpg" alt="Village Rice">
+                    <div class="card-body">
+                        <h5 class="card-title">VILLAGE RICE</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="22" data-product-name="Village Rice" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <!-- Card for Ofada Rice -->
+                <div class="card">
+                    <img src="images/ofada.webp" alt="Ofada Rice">
+                    <div class="card-body">
+                        <h5 class="card-title">OFADA RICE</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="23" data-product-name="Ofada Rice" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control next" id="nextBtnRice">&#10095;</button>
+        </div>
+    </section>
+    <section class="section3"> 
+        <div class="head">
+            <h1>EXTRA EATS</h1>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-control prev" id="prevBtnExtra">&#10094;</button>
+            
+            <div class="card-container" id="cardContainerExtra">
+                <div class="card">
+                    <img src="images/stirfry.jpg" alt="Stir-Fry Spaghetti">
+                    <div class="card-body">
+                        <h5 class="card-title">STIR-FRY SPAGHETTI</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="24" data-product-name="Stirfy pasta" data-product-price="300">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/yam.jpg" alt="Yam Porridge">
+                    <div class="card-body">
+                        <h5 class="card-title">YAM PORRIDGE</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="25" data-product-name="yam Porridge" data-product-price="300">Add to Cart</button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/ewa.jpeg" alt="Ewa Agoyin">
+                    <div class="card-body">
+                        <h5 class="card-title">EWA-AGOYIN</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="26" data-product-name="Ewa Agoyin" data-product-price="300">Add to Cart</button>
+
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control next" id="nextBtnExtra">&#10095;</button>
+        </div>
+    </section>
+
+    <section class="section2"> 
+        <div class="head">
+            <h1>DRINKS</h1>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-control prev" id="prevBtn">&#10094;</button>
+            
+            <div class="card-container" id="cardContainer">
+                <div class="card">
+                    <img src="images/watersml.png" alt="Eva Water Small">
+                    <div class="card-body">
+                        <h5 class="card-title">EVA WATER (small)</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="27" data-product-name="Eva water(small)" data-product-price="300">Add to Cart</button>
+
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/watersml.png" alt="Eva Water Big">
+                    <div class="card-body">
+                        <h5 class="card-title">EVA WATER (big)</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="28" data-product-name="Eva Water (big)" data-product-price="300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/monster.webp" alt="Monster Energy">
+                    <div class="card-body">
+                        <h5 class="card-title">MONSTER ENERGY</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button id="addToCartBtn" class="add-to-cart" data-product-id="29" data-product-name="Monster Energy" data-product-price="300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/predator.jpg" alt="Predator Energy Drink">
+                    <div class="card-body">
+                        <h5 class="card-title">PREDATOR ENERGY DRINK</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="30" data-product-name="Predator Energy Drink" data-product-price="300">Add to Cart</button>
+
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/fearless.jpg" alt="Fearless Energy Drink">
+                    <div class="card-body">
+                        <h5 class="card-title">FEARLESS ENERGY DRINK</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="31" data-product-name="Fearless Energy Drink" data-product-price="300">Add to Cart</button>
+
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/cfps.webp" alt="Coke/Fanta/Pepsi/Sprite">
+                    <div class="card-body">
+                        <h5 class="card-title">COKE</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="32" data-product-name="coke" data-product-price="300">Add to Cart</button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/cfps.webp" alt="Coke/Fanta/Pepsi/Sprite">
+                    <div class="card-body">
+                        <h5 class="card-title">FANTA</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="33" data-product-name="Fanta" data-product-price="300">Add to Cart</button>
+
+                    </div>
+                </div>
+    
+    
+                <div class="card">
+                    <img src="images/malt.png" alt="Malta Guinness">
+                    <div class="card-body">
+                        <h5 class="card-title">MALTA GUINNESS</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="34" data-product-name="Malta Guinness" data-product-price="300">Add to Cart</button>
+
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/5alive.jpg" alt="5 Alive Pulpy">
+                    <div class="card-body">
+                        <h5 class="card-title">5 ALIVE PULPY</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="35" data-product-name="5 Alive Pulpy" data-product-price="300">Add to Cart</button>
+
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/hollandia.jpg" alt="Hollandia Yoghurt Small">
+                    <div class="card-body">
+                        <h5 class="card-title">HOLLANDIA YOGHURT (small)</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="36" data-product-name="5 Alive Pulpy" data-product-price="300">Add to Cart</button>
+
+                   
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/hollandia.jpg" alt="Hollandia Yoghurt Small">
+                    <div class="card-body">
+                        <h5 class="card-title">HOLLANDIA YOGHURT (big)</h5>
+                        <p class="card-description"><img src="images/naira.png" alt=""> 300</p>
+                        <a href="option.html" class="card-description2">More Options</a>
+                        <div class="quantity">
+                            <button class="decrease-btn">-</button>
+                            <input type="number" class="quantity-input" value="1" min="1">
+                            <button class="increase-btn">+</button>
+                        </div>
+                        <button class="add-to-cart" data-product-id="37" data-product-name="5 Alive Pulpy(big)" data-product-price="300">Add to Cart</button>
+
+                   
+                    </div>
+                </div>
+    
+              
+            
+            <button class="carousel-control next" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+    
+    
+    
+
+    
+
+
+    <!-- Cart and Footer -->
+    <div class="cart">
+        <a href="javascript:void(0);" id="cartIcon">
+            <img src="images/cart.png" alt="Cart Icon">
+            <span class="cart-count">0</span>
+        </a>
+    </div>
+    <div id="notification" class="notification" ></div>
+
+
+    <div id="cartSidebar" class="cart-sidebar">
+        <button id="closeSidebarBtn">&times;</button>
+        <h2>Your Cart</h2>
+        <div id="cartItemsContainer"></div>
+        <div class="bottom">
+        <button id="checkoutBtn" class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 Amala Ibadan Ltd. All rights reserved.</p>
+            <p><a href="#" class="footer-link">Privacy Statement</a> | <a href="#" class="footer-link">Terms of Use</a></p>
+        </div>
+    </footer>
+<script>
+ document.addEventListener('DOMContentLoaded', () => {
+        // Initial variables and elements
+        const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        const cartCount = document.querySelector('.cart-count');
+        const cartItemsContainer = document.getElementById('cartItemsContainer');
+        const cartSidebar = document.getElementById('cartSidebar');
+        const cartIcon = document.getElementById('cartIcon');
+        const closeSidebarBtn = document.getElementById('closeSidebarBtn');
+        const checkoutBtn = document.getElementById('checkoutBtn');
+        const quantityInputs = document.querySelectorAll('.quantity-input');
+        const increaseButtons = document.querySelectorAll('.increase-btn');
+        const decreaseButtons = document.querySelectorAll('.decrease-btn');
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+        const cardContainer = document.getElementById('cardContainer');
+        const nextButton = document.getElementById('nextBtn');
+        const prevButton = document.getElementById('prevBtn');
+        let scrollAmount = 0;
+        const cardWidth = 320;
+    
+        // Function to save cart to localStorage
+        function saveCart() {
+            localStorage.setItem('cartItems', JSON.stringify(cartItems));
+        }
+    
+        // Update cart count
+        function updateCartCount() {
+            cartCount.textContent = cartItems.reduce((total, item) => total + item.quantity, 0);
+        }
+    
+        // Render cart items
+        function renderCartItems() {
+            cartItemsContainer.innerHTML = '';  // Clear the container before rendering
+    
+            cartItems.forEach(item => {
+                const cartItem = document.createElement('div');
+                cartItem.classList.add('cart-item');
+                cartItem.innerHTML = `
+                    <p>${item.quantity} x ${item.name}</p>
+                    <p>₦${(item.price * item.quantity).toFixed(2)}</p>
+                    <button class="delete-btn" data-product-id="${item.id}">Delete</button>
+                `;
+                cartItemsContainer.appendChild(cartItem);
+            });
+    
+            // Attach delete functionality to each delete button
+            document.querySelectorAll('.delete-btn').forEach(button => {
+                button.addEventListener('click', handleDelete);
+            });
+        }
+    
+        // Handle delete item event
+        function handleDelete(event) {
+            const productId = parseInt(event.target.getAttribute('data-product-id'));
+            removeItem(productId);
+        }
+    
+        // Remove item from cart
+        function removeItem(productId) {
+            const index = cartItems.findIndex(item => item.id === productId);
+            if (index !== -1) {
+                cartItems.splice(index, 1);
+                saveCart();
+                renderCartItems();
+                updateCartCount();
+            }
+        }
+        // Handle quantity increase and decrease
+        increaseButtons.forEach((button, index) => {
+            button.addEventListener('click', () => {
+                let quantity = parseInt(quantityInputs[index].value);
+                quantityInputs[index].value = quantity + 1;
+            });
+        });
+    
+        decreaseButtons.forEach((button, index) => {
+            button.addEventListener('click', () => {
+                let quantity = parseInt(quantityInputs[index].value);
+                if (quantity > 1) {
+                    quantityInputs[index].value = quantity - 1;
+                }
+            });
+        });
+    
+        // Handle add to cart
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const productId = parseInt(button.getAttribute('data-product-id'));
+                const productName = button.getAttribute('data-product-name');
+                const productPrice = parseFloat(button.getAttribute('data-product-price'));
+                const quantityInput = button.previousElementSibling.querySelector('.quantity-input');
+                const quantity = parseInt(quantityInput.value);
+    
+                const existingItem = cartItems.find(item => item.id === productId);
+                if (existingItem) {
+                    existingItem.quantity += quantity;
+                } else {
+                    cartItems.push({ id: productId, name: productName, price: productPrice, quantity });
+                }
+    
+                saveCart();
+                updateCartCount();
+                renderCartItems();
+
+                const notification = document.getElementById('notification');
+        notification.textContent = 'Your product has been successfully added to cart!';
+        notification.classList.add('show'); // Add class to show notification
+        
+        // Hide notification after 3 seconds
+        setTimeout(() => {
+            notification.classList.remove('show'); // Remove class to hide notification
+        }, 2000); // 3000 milliseconds = 3 seconds
+    
+            });
+        });
+    
+        // Cart sidebar toggle
+        cartIcon.addEventListener('click', () => {
+            cartSidebar.classList.add('show');
+        });
+    
+        closeSidebarBtn.addEventListener('click', () => {
+            cartSidebar.classList.remove('show');
+        });
+    
+        // Initialize cart
+        updateCartCount();
+        renderCartItems();
+    
+        // Checkout button
+        checkoutBtn.addEventListener('click', () => {
+            if (cartItems.length > 0) {
+                alert('Proceeding to checkout...');
+                window.location.href = 'checkout.html';
+            } else {
+                alert('Your cart is empty!');
+            }
+        });
+    
+        // Mobile menu toggle
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu');
+        });
+    
+        // Navbar scroll behavior
+        document.addEventListener('scroll', () => {
+            const scroll_position = window.scrollY;
+            const navbar = document.getElementById('navbar');
+            if (scroll_position > 250) {
+                navbar.style.backgroundColor = '#4138388f';
+            } else {
+                navbar.style.backgroundColor = 'transparent';
+            }
+        });
+    
+        // Carousel scroll
+        nextButton.addEventListener('click', () => {
+            scrollAmount += cardWidth;
+            cardContainer.scrollTo({
+                top: 0,
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        });
+    
+        prevButton.addEventListener('click', () => {
+            scrollAmount -= cardWidth;
+            if (scrollAmount < 0) scrollAmount = 0;  
+            cardContainer.scrollTo({
+                top: 0,
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        });
+    
+        // Carousel resizing behavior
+        const carouselImages = document.querySelector('.carousel-images');
+        const images = document.querySelectorAll('.carousel-images img');
+        let counter = 0;
+    
+        function updateCarousel() {
+            const size = images[0].clientWidth + 20; // Adds margin between images
+            carouselImages.style.transform = 'translateX(' + (-size * counter) + 'px)';
+        }
+    
+        nextButton.addEventListener('click', () => {
+            if (counter >= images.length - 1) return;  // Stop at the last image
+            counter++;
+            updateCarousel();
+        });
+    
+        prevButton.addEventListener('click', () => {
+            if (counter <= 0) return;  // Stop at the first image
+            counter--;
+            updateCarousel();
+        });
+    
+        window.addEventListener('resize', updateCarousel);
+        updateCarousel();
+    });
+</script>    
+</body>
+</html>

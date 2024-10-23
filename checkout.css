@@ -1,0 +1,222 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5; /* Softer background color */
+    color: #333; /* Darker text color for better readability */
+}
+
+.arrow {
+    width: 40px;
+    margin-left: 30px;
+}
+
+
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #d58610; /* Accent color for the heading */
+}
+
+.checkout-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.billing-info {
+    max-width: 700px;
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.order-details {
+    max-width: 400px;
+    flex: 1;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fefefe;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    color: #d58610;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    border-color: #d58610;
+}
+
+.billing-button,
+.checkout-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #d58610;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+}
+
+.billing-button:hover,
+.checkout-button:hover {
+    background-color: #a75c06;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cart-items {
+    overflow-y: auto;
+    max-height: 400px;
+    margin-bottom: 30px;
+}
+
+.cart-items::-webkit-scrollbar {
+  display: none;
+}
+
+.cart-item {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.total-price {
+    text-align: right;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #d58610;
+}
+
+.total-price h3 {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Media Queries */
+
+/* Tablets and smaller screens (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .checkout-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .billing-info, .order-details {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+    
+    .header {
+        font-size: 32px;
+    }
+    
+    .total-price {
+        font-size: 20px;
+    }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .checkout-content {
+        gap: 15px;
+    }
+
+    .billing-info, .order-details {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+    
+    .header {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+    .total-price {
+        font-size: 18px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .billing-button, .checkout-button {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+/* Extra small screens (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .header {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .total-price {
+        font-size: 16px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .billing-button, .checkout-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
